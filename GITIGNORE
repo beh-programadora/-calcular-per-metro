@@ -1,0 +1,37 @@
+
+### .gitignore
+
+```gitignore
+# Ignorar arquivos Python compilados
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar diretórios de cache
+__pycache__/
+Enunciado do Projeto
+# Enunciado do Projeto: Calculador de Perímetro de Retângulo
+
+## Objetivo
+
+Desenvolver um script em Python que defina uma função para calcular o perímetro de um retângulo com base em sua largura e altura fornecidas pelo usuário e exiba o perímetro formatado com duas casas decimais.
+
+## Requisitos
+
+1. O script deve definir uma função chamada `calcular_perimetro` que recebe dois parâmetros (largura e altura) e retorna o perímetro do retângulo.
+2. O script deve solicitar ao usuário a entrada da largura e da altura do retângulo utilizando a função `input()`.
+3. Utilize a função `calcular_perimetro` para calcular o perímetro do retângulo com base nas dimensões fornecidas.
+4. Exiba o perímetro calculado com duas casas decimais usando a função `print()`.
+
+## Passos para Implementação
+
+1. Crie um arquivo chamado `calcular_perimetro.py`.
+2. No arquivo, defina a função `calcular_perimetro` que calcula o perímetro do retângulo.
+3. Solicite ao usuário que insira a largura e a altura do retângulo e armazene esses valores em variáveis.
+4. Chame a função `calcular_perimetro`, passando a largura e a altura como argumentos, e armazene o resultado em uma variável.
+5. Exiba o perímetro formatado com duas casas decimais.
+6. Salve e execute o script para verificar se o perímetro é calculado e exibido corretamente.
+
+## Exemplo de Saída Esperada
+
+Digite a largura do retângulo: 5.0 Digite a altura do retângulo: 3.0 O perímetro do retângulo é: 16.00
