@@ -1,0 +1,12 @@
+def calcular_perimetro(largura, altura):
+    return 2 * (largura + altura)
+
+# leitura das dimensões 
+largura = float(input("digite a largura do retângulo: "))
+altura = float(input("digite a altura do retângulo:? "))
+
+# chamnda da função
+perimetro = calcular_perimetro(largura, altura)
+
+# exibição do perímetro
+print(f" o perímetro do retângulo é: {perimetro:.2f}")
